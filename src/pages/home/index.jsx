@@ -5,6 +5,7 @@ import { HomeForm } from '@/components/organisms';
 
 const Image = styled.img`
   display: none;
+  z-index: 1;
 
   @media only screen and (width > 992px) {
     display: block;
