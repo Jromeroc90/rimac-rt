@@ -22,13 +22,11 @@ const AppRouter = () => {
           />
           <Route
             path='/datos'
-            // element={data.user ? <Customization /> : <Navigate replace to='/' />}
-            element={<Customization />}
+            element={data.user ? <Customization /> : <Navigate replace to='/' />}
           />
           <Route
             path='/resumen'
-            // element={data.user ? <Resume /> : <Navigate replace to='/' />}
-            element={<Resume />}
+            element={(data.user && data.plan) ? <Resume /> : <Navigate replace to='/' />}
           />
         </Route>
       </Routes>
