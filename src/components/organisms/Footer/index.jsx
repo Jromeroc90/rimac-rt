@@ -6,6 +6,7 @@ import LogoInline from '@/assets/logo_inline.svg';
 const Wrapper = styled.div`
   background-color: ${props => props.theme.colors.grey100};
   padding: 32px 0;
+  z-index: 2;
 `;
 
 const FooterContainer = styled.div`

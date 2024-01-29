@@ -13,6 +13,7 @@ const Image = styled.img`
 
 const FormContainer = styled.div`
   width: 100%;
+  z-index: 1;
   
   @media only screen and (width > 992px) {
     max-width: 416px;

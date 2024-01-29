@@ -4,8 +4,8 @@ import Phone from '@/assets/telephone.svg';
 import Logo from '@/assets/logo.svg';
 
 const Wrapper = styled.div`
-  background-color: ${props => props.theme.colors.grey0};
   padding: 14px 0;
+  z-index: 1;
 `;
 
 const HeaderContainer = styled.div`

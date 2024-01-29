@@ -6,8 +6,10 @@ const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-color: ${props => props.theme.colors.neutral100};
+  overflow: hidden;
+  position: relative;
 `;
 
 const ChildWrapper = styled.div`
